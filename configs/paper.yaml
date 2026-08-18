@@ -1,0 +1,40 @@
+seed: 42
+
+segmentation:
+  image_size: 256
+  channels: [32, 64, 128, 256, 512]
+  strides: [2, 2, 2, 2]
+  dropout: 0.1
+  mask_threshold: 0.40
+  selection_threshold: 0.90
+  ranking_strategy: max_prob
+
+qwen:
+  base_model: Qwen/Qwen2.5-VL-7B-Instruct
+  epochs: 5
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  gradient_accumulation: 8
+  lora_rank: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  max_new_tokens: 64
+
+location_predictor:
+  backbone: resnet50
+  epochs: 20
+  learning_rate: 0.00003
+  weight_decay: 0.0001
+  image_size: 224
+  views: [crop, overlay, select_overlay]
+
+soft_hints:
+  precision:
+    probability_threshold: 0.55
+    max_labels: 4
+  recall:
+    probability_threshold: 0.25
+    max_labels: 8
+
+statistics:
+  bootstrap_replicates: 10000

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Prediction-Only Segmentation-Guided Vision-Language Model for Multicenter Acute Ischemic Stroke DWI Report Generation"
+type: software
+authors:
+  - family-names: Kwon
+    given-names: HeeJae
+  - family-names: Kim
+    given-names: Young Jae
+  - family-names: Ha
+    given-names: Sang Hee
+  - family-names: Kim
+    given-names: Kwang Gi
+repository-code: "https://github.com/heejaeee/stroke-dwi-report-generation"
+license: Apache-2.0
+version: 0.1.0
+date-released: "2026-08-13"

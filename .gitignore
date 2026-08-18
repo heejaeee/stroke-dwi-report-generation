@@ -1,0 +1,49 @@
+# Protected clinical data and generated artifacts
+data/
+outputs/
+checkpoints/
+models/
+logs/
+review/
+private/
+
+# Medical images and model weights
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Tables and reports may contain identifiers
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.jsonl
+*.docx
+*.pdf
+!examples/**/*.csv
+!examples/**/*.jsonl
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Runtime secrets
+.env
+.env.*
+*.key
+*.pem

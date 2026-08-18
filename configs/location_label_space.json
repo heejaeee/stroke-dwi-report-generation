@@ -1,0 +1,28 @@
+{
+  "location_labels": [
+    "aca_territory",
+    "basal_ganglia",
+    "centrum_semiovale",
+    "cerebellum",
+    "cerebral_hemisphere",
+    "cingulate_gyrus",
+    "corona_radiata",
+    "corpus_callosum",
+    "cortex",
+    "frontal_lobe",
+    "hippocampus",
+    "ica_territory",
+    "insula",
+    "internal_capsule",
+    "mca_territory",
+    "medulla",
+    "midbrain",
+    "occipital_lobe",
+    "parietal_lobe",
+    "pca_territory",
+    "pons",
+    "temporal_lobe",
+    "thalamus",
+    "white_matter"
+  ]
+}

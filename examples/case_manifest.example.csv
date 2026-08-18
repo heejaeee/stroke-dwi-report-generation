@@ -1,0 +1,2 @@
+case_uid,source,patient_id,split,image_path,mask_path,axis
+synthetic_case_001,site_a,SYNTHETIC_001,test,path,path,2
